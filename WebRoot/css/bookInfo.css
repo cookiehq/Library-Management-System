@@ -1,0 +1,166 @@
+/*导航*/
+
+.nav {
+	height: 44px;
+	line-height: 44px;
+	background-color: #f6a200;
+	width: 960px;
+	text-align: center;
+	margin: 0px auto;
+}
+
+.nav .nav_center {
+	text-align: center;
+	margin: 0px 75px;
+}
+
+.nav .nav_list li {
+	float: left;
+	list-style-type: none;
+}
+
+.nav .nav_list li a.nav_line {
+	font-size: 16px;
+	color: #fff;
+	padding: 0 20px;
+	display: block;
+	margin-right: 20px;
+	position: relative;
+	text-decoration: none;
+}
+
+.nav .nav_list li a.nav_line:hover {
+	background-color: #e39500;
+}
+
+body {
+	background-color: #FAE8C8;
+}
+
+.copy {
+	font-size: 14px;
+	line-height: 50px;
+	clear: both;
+	height: 50px;
+	text-align: center;
+	margin: 50px 0px -10px 0px;
+	background-color: rgb(255, 255, 204);
+}
+
+.h2 {
+	margin: 50px 0px 0px 0px;
+	clear: both;
+	text-align: center;
+}
+
+hr {
+	clear: both;
+}
+
+a {
+	color: #222222;
+	text-decoration: none;
+}
+
+.ingredients {
+	width: 960px;
+	margin: 20px auto;
+}
+
+.main {
+	border: 1px solid #DADADA;
+	min-height: 600px;
+}
+
+.left {
+	float: left;
+	/*border: 1px solid #DADADA;*/
+	width: 300px;
+	min-height: 500px;
+	text-align: right;
+	margin-top: 20px;
+}
+
+.left label {
+	font-size: 20px;
+	font-weight: 500;
+	margin: 20px 5px;
+}
+
+.right {
+	/*border: 1px solid #DADADA;*/
+	min-height: 500px;
+	margin-left: 300px;
+}
+
+
+.basic-grey {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 500px;
+	/*background: #F7F7F7;*/
+	background: #FAE8C8;
+	padding: 25px 15px 25px 10px;
+	/*font: 12px Georgia, "Times New Roman", Times, serif;*/
+	/*color: #888;*/
+	text-shadow: 1px 1px 1px #FFF;
+	/*border: 1px solid #E4E4E4;*/
+}
+
+.basic-grey h1 {
+	font-size: 25px;
+	padding: 0px 0px 10px 40px;
+	display: block;
+	border-bottom: 0px;
+	margin: -10px -15px 30px -10px;
+	/*text-align: center;*/
+	/*color: #888;*/
+}
+
+.basic-grey label {
+	font-size: 22px;
+	display: block;
+	margin: 0px;
+}
+
+.basic-grey label>span {
+	float: left;
+	width: 20%;
+	text-align: right;
+	padding-right: 10px;
+	margin-top: 10px;
+	/*color: #888;*/
+}
+
+.basic-grey input[type="text"]{
+	background: #FAE8C8;
+	border: 0px;
+	/*color: #888;*/
+	height: 30px;
+	margin-bottom: 16px;
+	margin-right: 6px;
+	margin-top: 2px;
+	outline: 0 none;
+	padding: 8px 3px 3px 5px;
+	width: 70%;
+	font-size: 18px;
+	line-height: 15px;
+	/*box-shadow: inset 0px 1px 4px #ECECEC;*/
+	/*-moz-box-shadow: inset 0px 1px 4px #ECECEC;*/
+	/*-webkit-box-shadow: inset 0px 1px 4px #ECECEC;*/
+}
+
+.basic-grey .button {
+	background: #E27575;
+	border: none;
+	padding: 10px 25px 10px 25px;
+	color: #FFF;
+	box-shadow: 1px 1px 5px #B6B6B6;
+	border-radius: 3px;
+	text-shadow: 1px 1px 1px #9E3F3F;
+	cursor: pointer;
+}
+
+.basic-grey .button:hover {
+	background: #CF7A7A
+}
